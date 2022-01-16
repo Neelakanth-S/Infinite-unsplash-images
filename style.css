@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Baloo+Bhaijaan+2&family=Comfortaa&family=Concert+One&family=Dosis:wght@300&family=Genos:wght@300&family=Lato&family=Montserrat:wght@300&family=Pacifico&family=Permanent+Marker&family=Special+Elite&family=Voltaire&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    height:100vh;
+    width:100vw;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+#container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:space-between;
+    gap:1rem;
+    flex-wrap:wrap;
+
+}
+
+h1{
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+}
+
+span{
+    font-family: 'Lato', sans-serif;
+    color:brown;
+}
+
+#container img{
+    max-width:20rem;
+    max-height:20rem;
+    transition: all 0.4s;
+    border:4px transparent;
+    border-radius: 1%;
+
+}
+
+#container img:hover{
+    border-radius:2%;
+    transition: all 0.4s;
+    
+}
